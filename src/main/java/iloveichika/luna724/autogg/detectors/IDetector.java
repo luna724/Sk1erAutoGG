@@ -1,4 +1,4 @@
-package club.sk1er.mods.autogg.detectors;
+package iloveichika.luna724.autogg.detectors;
 
 public interface IDetector {
     boolean detect(String data);

@@ -1,7 +1,7 @@
-package club.sk1er.mods.autogg.command;
+package iloveichika.luna724.autogg.command;
 
-import club.sk1er.mods.autogg.AutoGG;
-import club.sk1er.mods.autogg.tasks.RetrieveTriggersTask;
+import iloveichika.luna724.autogg.AutoGG;
+import iloveichika.luna724.autogg.tasks.RetrieveTriggersTask;
 import gg.essential.api.EssentialAPI;
 import gg.essential.api.commands.Command;
 import gg.essential.api.commands.DefaultHandler;
@@ -15,7 +15,7 @@ import java.util.Objects;
 
 public class AutoGGCommand extends Command {
     public AutoGGCommand() {
-        super("autogg");
+        super("lunautogg");
     }
 
     @DefaultHandler

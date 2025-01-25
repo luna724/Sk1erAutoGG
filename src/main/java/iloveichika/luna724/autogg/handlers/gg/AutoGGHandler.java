@@ -1,9 +1,9 @@
-package club.sk1er.mods.autogg.handlers.gg;
+package iloveichika.luna724.autogg.handlers.gg;
 
-import club.sk1er.mods.autogg.AutoGG;
-import club.sk1er.mods.autogg.handlers.patterns.PatternHandler;
-import club.sk1er.mods.autogg.tasks.data.Server;
-import club.sk1er.mods.autogg.tasks.data.Trigger;
+import iloveichika.luna724.autogg.AutoGG;
+import iloveichika.luna724.autogg.handlers.patterns.PatternHandler;
+import iloveichika.luna724.autogg.tasks.data.Server;
+import iloveichika.luna724.autogg.tasks.data.Trigger;
 import gg.essential.api.utils.Multithreading;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.EnumChatFormatting;
@@ -106,13 +106,15 @@ public class AutoGGHandler {
             if (System.currentTimeMillis() - lastGG < 10_000) return;
             lastGG = System.currentTimeMillis();
 
-            String ggMessage = AutoGG.INSTANCE.getPrimaryGGStrings()[AutoGG.INSTANCE.getAutoGGConfig().getAutoGGPhrase()];
+            String ggMessage = AutoGG.INSTANCE.getAutoGGConfig().getAutoGGPhrase();
+            if (ggMessage.isEmpty()) return;
             int delay = AutoGG.INSTANCE.getAutoGGConfig().getAutoGGDelay();
 
             Multithreading.schedule(() -> Minecraft.getMinecraft().thePlayer.sendChatMessage(prefix.isEmpty() ? ggMessage : prefix + " " + ggMessage), delay, TimeUnit.SECONDS);
 
             if (AutoGG.INSTANCE.getAutoGGConfig().isSecondaryEnabled()) {
-                String secondGGMessage = AutoGG.INSTANCE.getSecondaryGGStrings()[AutoGG.INSTANCE.getAutoGGConfig().getAutoGGPhrase2()];
+                String secondGGMessage = AutoGG.INSTANCE.getAutoGGConfig().getAutoGGPhrase2();
+                if (secondGGMessage.isEmpty()) return;
                 int secondaryDelay = AutoGG.INSTANCE.getAutoGGConfig().getSecondaryDelay() + AutoGG.INSTANCE.getAutoGGConfig().getAutoGGDelay();
 
                 Multithreading.schedule(() -> Minecraft.getMinecraft().thePlayer.sendChatMessage(prefix.isEmpty() ? ggMessage : prefix + " " + secondGGMessage), secondaryDelay, TimeUnit.SECONDS);

@@ -1,10 +1,10 @@
-package club.sk1er.mods.autogg.tasks;
+package iloveichika.luna724.autogg.tasks;
 
-import club.sk1er.mods.autogg.AutoGG;
-import club.sk1er.mods.autogg.handlers.patterns.PatternHandler;
-import club.sk1er.mods.autogg.tasks.data.Server;
-import club.sk1er.mods.autogg.tasks.data.Trigger;
-import club.sk1er.mods.autogg.tasks.data.TriggersSchema;
+import iloveichika.luna724.autogg.AutoGG;
+import iloveichika.luna724.autogg.handlers.patterns.PatternHandler;
+import iloveichika.luna724.autogg.tasks.data.Server;
+import iloveichika.luna724.autogg.tasks.data.Trigger;
+import iloveichika.luna724.autogg.tasks.data.TriggersSchema;
 import com.google.gson.Gson;
 import gg.essential.api.utils.WebUtil;
 import org.apache.logging.log4j.LogManager;

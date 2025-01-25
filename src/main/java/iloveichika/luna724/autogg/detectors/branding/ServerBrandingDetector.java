@@ -1,7 +1,7 @@
-package club.sk1er.mods.autogg.detectors.branding;
+package iloveichika.luna724.autogg.detectors.branding;
 
-import club.sk1er.mods.autogg.detectors.IDetector;
-import club.sk1er.mods.autogg.handlers.patterns.PatternHandler;
+import iloveichika.luna724.autogg.detectors.IDetector;
+import iloveichika.luna724.autogg.handlers.patterns.PatternHandler;
 import net.minecraft.client.Minecraft;
 
 public class ServerBrandingDetector implements IDetector {

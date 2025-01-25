@@ -1,4 +1,4 @@
-package club.sk1er.mods.autogg.tasks.data;
+package iloveichika.luna724.autogg.tasks.data;
 
 /**
  * Data holder for a trigger in the server triggers JsonArray

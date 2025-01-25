@@ -1,4 +1,4 @@
-package club.sk1er.mods.autogg.tasks.data;
+package iloveichika.luna724.autogg.tasks.data;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

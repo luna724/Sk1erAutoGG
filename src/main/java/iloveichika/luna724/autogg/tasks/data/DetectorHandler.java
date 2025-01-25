@@ -1,8 +1,8 @@
-package club.sk1er.mods.autogg.tasks.data;
+package iloveichika.luna724.autogg.tasks.data;
 
-import club.sk1er.mods.autogg.detectors.IDetector;
-import club.sk1er.mods.autogg.detectors.branding.ServerBrandingDetector;
-import club.sk1er.mods.autogg.detectors.ip.ServerIPDetector;
+import iloveichika.luna724.autogg.detectors.IDetector;
+import iloveichika.luna724.autogg.detectors.branding.ServerBrandingDetector;
+import iloveichika.luna724.autogg.detectors.ip.ServerIPDetector;
 
 public enum DetectorHandler {
     SERVER_BRANDING(new ServerBrandingDetector()),

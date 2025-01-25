@@ -1,7 +1,7 @@
-package club.sk1er.mods.autogg.detectors.ip;
+package iloveichika.luna724.autogg.detectors.ip;
 
-import club.sk1er.mods.autogg.detectors.IDetector;
-import club.sk1er.mods.autogg.handlers.patterns.PatternHandler;
+import iloveichika.luna724.autogg.detectors.IDetector;
+import iloveichika.luna724.autogg.handlers.patterns.PatternHandler;
 import net.minecraft.client.Minecraft;
 
 public class ServerIPDetector implements IDetector {

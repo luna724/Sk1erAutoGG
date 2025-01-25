@@ -1,4 +1,4 @@
-package club.sk1er.mods.autogg.handlers.patterns;
+package iloveichika.luna724.autogg.handlers.patterns;
 
 import java.util.HashMap;
 import java.util.Map;

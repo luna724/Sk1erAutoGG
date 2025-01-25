@@ -16,14 +16,14 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package club.sk1er.mods.autogg;
+package iloveichika.luna724.autogg;
 
-import club.sk1er.mods.autogg.command.AutoGGCommand;
-import club.sk1er.mods.autogg.config.AutoGGConfig;
-import club.sk1er.mods.autogg.handlers.gg.AutoGGHandler;
-import club.sk1er.mods.autogg.handlers.patterns.PlaceholderAPI;
-import club.sk1er.mods.autogg.tasks.RetrieveTriggersTask;
-import club.sk1er.mods.autogg.tasks.data.TriggersSchema;
+import iloveichika.luna724.autogg.command.AutoGGCommand;
+import iloveichika.luna724.autogg.config.AutoGGConfig;
+import iloveichika.luna724.autogg.handlers.gg.AutoGGHandler;
+import iloveichika.luna724.autogg.handlers.patterns.PlaceholderAPI;
+import iloveichika.luna724.autogg.tasks.RetrieveTriggersTask;
+import iloveichika.luna724.autogg.tasks.data.TriggersSchema;
 import gg.essential.api.EssentialAPI;
 import gg.essential.api.utils.JsonHolder;
 import gg.essential.api.utils.Multithreading;
@@ -42,7 +42,7 @@ import java.util.*;
  *
  * @author ChachyDev
  */
-@Mod(modid = "autogg", name = "AutoGG", version = "4.1.3")
+@Mod(modid = "lunautogg", name = "luna724AutoGG", version = "1.0")
 public class AutoGG {
 
     @Mod.Instance
